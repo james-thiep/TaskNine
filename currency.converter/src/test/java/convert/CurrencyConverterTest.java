@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class CurrencyConverterTest {
     @Test
     void testCurrencyConversionWithFixedRate() {
-        // Create test double with fixed rate
+
         ExchangeRateService testService = new TestExchangeRateService(0.85);
 
         // Create converter with test service

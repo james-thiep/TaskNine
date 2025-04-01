@@ -11,6 +11,6 @@ public class TestExchangeRateService implements ExchangeRateService {
 
     @Override
     public double getExchangeRate(String fromCurrency, String toCurrency) {
-        return fixedRate; // Always return the fixed rate for testing
+        return fixedRate;
     }
 }

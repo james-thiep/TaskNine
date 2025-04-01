@@ -7,7 +7,7 @@ public class SimpleExchangeRateService implements ExchangeRateService {
             "USD-EUR", 0.85,
             "EUR-USD", 1.18,
             "USD-GBP", 0.73,
-            "GBP-USD", 1.37
+            "GBP-USD", 1.38
     );
 
     @Override
