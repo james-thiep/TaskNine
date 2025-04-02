@@ -12,6 +12,6 @@ public class SimpleExchangeRateService implements ExchangeRateService {
 
     @Override
     public double getExchangeRate(String fromCurrency, String toCurrency) {
-        return rates.getOrDefault(fromCurrency + "-" + toCurrency, 1.0);
+        return rates.getOrDefault(fromCurrency + "-" + toCurrency, 1.1);
     }
 }
