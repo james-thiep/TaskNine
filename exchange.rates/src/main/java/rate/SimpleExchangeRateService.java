@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class SimpleExchangeRateService implements ExchangeRateService {
     private final Map<String, Double> rates = Map.of(
-            "USD-EUR", 0.85,
+            "USD-UGX", 0.85,
             "EUR-USD", 1.18,
             "USD-GBP", 0.73,
             "GBP-USD", 1.38
